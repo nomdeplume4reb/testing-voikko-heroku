@@ -3,8 +3,8 @@ from flask import Flask, render_template, request, redirect
 import libvoikko
 from libvoikko import Voikko
 # v = libvoikko.Voikko(u"fi")
-Voikko.setLibrarySearchPath(r"C:\Users\Voikko")
-v = libvoikko.Voikko("fi", r"C:\Users\Voikko\dict")
+Voikko.setLibrarySearchPath(r"C:\Users\rachel\Voikko")
+v = libvoikko.Voikko("fi", r"C:\Users\rachel\Voikko\dict")
 
 app = Flask(__name__)
 
